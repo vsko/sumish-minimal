@@ -4,14 +4,7 @@ return [
     'routes' => [
         '/' => 'home',
     ],
-//    'db' => [
-//        'driver' => 'mysql',
-//        'host' => 'zoom.net.ua',
-//        'database' => 'projects',
-//        'user' => 'projects',
-//        'password' => 'projects',
-//        'charset' => 'utf8',
-//    ],
+    'db' => require 'db.php',
     'compression' => 6,
     'mode' => 'web'
 ];
